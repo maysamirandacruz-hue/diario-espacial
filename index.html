@@ -2,20 +2,68 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Explorando o Espaço</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curiosidades Cósmicas</title>
     <style>
+        /* CSS: Estilizando o visual do site */
         body {
             background-color: #0b0d17;
-            color: white;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
-        h1 { color: #40e0d0; }
+
+        h1 {
+            color: #40e0d0;
+            text-align: center;
+        }
+
+        .card {
+            background-color: #1c1e2d;
+            border-radius: 12px;
+            padding: 20px;
+            max-width: 500px;
+            margin: 20px 0;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+            height: auto;
+        }
+
+        .curiosidade {
+            font-size: 1.1em;
+            line-height: 1.5;
+            color: #d1d5db;
+        }
     </style>
 </head>
 <body>
-    <h1>🚀 Bem-vindo ao Meu Site Espacial!</h1>
-    <p>Aqui você vai encontrar as curiosidades mais incríveis sobre o universo.</p>
+
+    <h1>✨ Curiosidades do Espaço ✨</h1>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?q=80&w=600" alt="Planeta Marte">
+        <h2>Um dia em Marte</h2>
+        <p class="curiosidade">
+            Um dia em Marte dura 24 horas, 39 minutos e 35 segundos. É quase igual ao dia na Terra!
+        </p>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?q=80&w=600" alt="Via Láctea">
+        <h2>Silêncio Absoluto</h2>
+        <p class="curiosidade">
+            O espaço é completamente silencioso. Como não há atmosfera nem ar para o som viajar, as ondas sonoras não conseguem se propagar.
+        </p>
+    </div>
+
 </body>
 </html>
